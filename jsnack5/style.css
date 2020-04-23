@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+header {
+    background: azure;
+    text-align: center;
+    border-bottom: 4px solid lightgreen;
+}
+
+header h1 {
+    font-size: 55px;
+    padding: 55px 0px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+main {
+    font-family: 'Monda', sans-serif;
+}
+
+#dati_utente {
+    background-color: blue;
+    padding: 45px 0px;
+}
+
+#dati_utente p {
+    font-size: 38px;
+    text-align: center;
+}
+
+.column {
+    float:left;
+    background-color: lightgreen;
+    width: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    padding: 35px 0px;
+}
+
+ul li:first-child {
+    text-transform: uppercase;
+    font-weight: bold;
+}
