@@ -5,7 +5,7 @@ var quantita = parseInt(prompt("Di quanti numeri vuoi calcolare il cubo?"));
 var num_partenza= parseInt(prompt("Da quale numero vuoi cominciare il conteggio?"));
 
 //Stampo a video i dati riguardanti le richieste dell'dati_utente
-document.getElementById("dati_utente").insertAdjacentHTML("beforeEnd","<p>Hai chiesto di calcolare il cubo " + quantita + " numeri</p>");
+document.getElementById("dati_utente").insertAdjacentHTML("beforeEnd","<p>Hai chiesto di calcolare il cubo di " + quantita + " numeri</p>");
 document.getElementById("dati_utente").insertAdjacentHTML("beforeEnd","<p>Il calcolo comincia dal numero " + num_partenza + "</p>");
 
 //Calcolo e stampo il numero
